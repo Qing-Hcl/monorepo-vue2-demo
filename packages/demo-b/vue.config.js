@@ -1,4 +1,2 @@
-const { defineConfig } = require('@vue/cli-service')
-module.exports = defineConfig({
-  transpileDependencies: true
-})
+const globalVueConfig = require('../../src/config/vue.config')
+module.exports = globalVueConfig(__dirname)
