@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import HelloWorld from 'demo-common/components/HelloWorld.vue'
+import { HelloWorld } from 'demo-common'
 
 export default {
   name: 'HomeView',
